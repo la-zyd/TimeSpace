@@ -1,0 +1,6 @@
+framework module Pods_Time_and_Space_Time_and_SpaceUITests {
+  umbrella header "Pods-Time and Space-Time and SpaceUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

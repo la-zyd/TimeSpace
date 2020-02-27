@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B6BE94C2406111B00D6ECFB /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6BE94B2406111B00D6ECFB /* Functions.swift */; };
+		1B8BA96C23D6C0590038150A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8BA96B23D6C0590038150A /* AppDelegate.swift */; };
+		1B8BA96E23D6C0590038150A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8BA96D23D6C0590038150A /* SceneDelegate.swift */; };
+		1B8BA97123D6C0590038150A /* Time_and_Space.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B8BA96F23D6C0590038150A /* Time_and_Space.xcdatamodeld */; };
+		1B8BA97323D6C0590038150A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8BA97223D6C0590038150A /* ContentView.swift */; };
+		1B8BA97523D6C05C0038150A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8BA97423D6C05C0038150A /* Assets.xcassets */; };
+		1B8BA97823D6C05C0038150A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8BA97723D6C05C0038150A /* Preview Assets.xcassets */; };
+		1B8BA97B23D6C05C0038150A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8BA97923D6C05C0038150A /* LaunchScreen.storyboard */; };
+		1B8BA98623D6C05C0038150A /* Time_and_SpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8BA98523D6C05C0038150A /* Time_and_SpaceTests.swift */; };
+		1B8BA99123D6C05C0038150A /* Time_and_SpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8BA99023D6C05C0038150A /* Time_and_SpaceUITests.swift */; };
+		5BCEC7DB087C93E935B7D74A /* Pods_Time_and_Space.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31348871B4D8DDB123716021 /* Pods_Time_and_Space.framework */; };
+		B579E9D9681E1020A7546270 /* Pods_Time_and_Space_Time_and_SpaceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98505F230980ABAB42C94838 /* Pods_Time_and_Space_Time_and_SpaceUITests.framework */; };
+		E80CE0505F97C394588EFE2D /* Pods_Time_and_SpaceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9866322EDD4AF1185B97C4 /* Pods_Time_and_SpaceTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B8BA98223D6C05C0038150A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B8BA96023D6C0590038150A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8BA96723D6C0590038150A;
+			remoteInfo = "Time and Space";
+		};
+		1B8BA98D23D6C05C0038150A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B8BA96023D6C0590038150A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8BA96723D6C0590038150A;
+			remoteInfo = "Time and Space";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B6BE94B2406111B00D6ECFB /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		1B8BA96823D6C0590038150A /* Time and Space.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time and Space.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8BA96B23D6C0590038150A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B8BA96D23D6C0590038150A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B8BA97023D6C0590038150A /* Time_and_Space.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Time_and_Space.xcdatamodel; sourceTree = "<group>"; };
+		1B8BA97223D6C0590038150A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B8BA97423D6C05C0038150A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B8BA97723D6C05C0038150A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B8BA97A23D6C05C0038150A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B8BA97C23D6C05C0038150A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8BA98123D6C05C0038150A /* Time and SpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time and SpaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8BA98523D6C05C0038150A /* Time_and_SpaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_and_SpaceTests.swift; sourceTree = "<group>"; };
+		1B8BA98723D6C05C0038150A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8BA98C23D6C05C0038150A /* Time and SpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time and SpaceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8BA99023D6C05C0038150A /* Time_and_SpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_and_SpaceUITests.swift; sourceTree = "<group>"; };
+		1B8BA99223D6C05C0038150A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9866322EDD4AF1185B97C4 /* Pods_Time_and_SpaceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_and_SpaceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31348871B4D8DDB123716021 /* Pods_Time_and_Space.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_and_Space.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C478088C24659DE1424E293 /* Pods-Time and Space.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time and Space.release.xcconfig"; path = "Target Support Files/Pods-Time and Space/Pods-Time and Space.release.xcconfig"; sourceTree = "<group>"; };
+		74E1025A3EF2B993CF535524 /* Pods-Time and Space-Time and SpaceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time and Space-Time and SpaceUITests.debug.xcconfig"; path = "Target Support Files/Pods-Time and Space-Time and SpaceUITests/Pods-Time and Space-Time and SpaceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F6D3714F8F004EA51AC9ED9 /* Pods-Time and Space.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time and Space.debug.xcconfig"; path = "Target Support Files/Pods-Time and Space/Pods-Time and Space.debug.xcconfig"; sourceTree = "<group>"; };
+		86B42264D186A7FEBDB471CB /* Pods-Time and SpaceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time and SpaceTests.debug.xcconfig"; path = "Target Support Files/Pods-Time and SpaceTests/Pods-Time and SpaceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98505F230980ABAB42C94838 /* Pods_Time_and_Space_Time_and_SpaceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_and_Space_Time_and_SpaceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A138DD21DEEC00950BEE5B /* Pods-Time and SpaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time and SpaceTests.release.xcconfig"; path = "Target Support Files/Pods-Time and SpaceTests/Pods-Time and SpaceTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE2C428EAD576C95AE3A38FB /* Pods-Time and Space-Time and SpaceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time and Space-Time and SpaceUITests.release.xcconfig"; path = "Target Support Files/Pods-Time and Space-Time and SpaceUITests/Pods-Time and Space-Time and SpaceUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B8BA96523D6C0590038150A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCEC7DB087C93E935B7D74A /* Pods_Time_and_Space.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8BA97E23D6C05C0038150A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80CE0505F97C394588EFE2D /* Pods_Time_and_SpaceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8BA98923D6C05C0038150A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B579E9D9681E1020A7546270 /* Pods_Time_and_Space_Time_and_SpaceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B8BA95F23D6C0590038150A = {
+			isa = PBXGroup;
+			children = (
+				1B8BA96A23D6C0590038150A /* Time and Space */,
+				1B8BA98423D6C05C0038150A /* Time and SpaceTests */,
+				1B8BA98F23D6C05C0038150A /* Time and SpaceUITests */,
+				1B8BA96923D6C0590038150A /* Products */,
+				472ADEE77694FD71D0A70DCA /* Pods */,
+				FFB2FCF83132F5932A296472 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B8BA96923D6C0590038150A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B8BA96823D6C0590038150A /* Time and Space.app */,
+				1B8BA98123D6C05C0038150A /* Time and SpaceTests.xctest */,
+				1B8BA98C23D6C05C0038150A /* Time and SpaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B8BA96A23D6C0590038150A /* Time and Space */ = {
+			isa = PBXGroup;
+			children = (
+				1B8BA96B23D6C0590038150A /* AppDelegate.swift */,
+				1B6BE94B2406111B00D6ECFB /* Functions.swift */,
+				1B8BA96D23D6C0590038150A /* SceneDelegate.swift */,
+				1B8BA97223D6C0590038150A /* ContentView.swift */,
+				1B8BA97423D6C05C0038150A /* Assets.xcassets */,
+				1B8BA97923D6C05C0038150A /* LaunchScreen.storyboard */,
+				1B8BA97C23D6C05C0038150A /* Info.plist */,
+				1B8BA96F23D6C0590038150A /* Time_and_Space.xcdatamodeld */,
+				1B8BA97623D6C05C0038150A /* Preview Content */,
+			);
+			path = "Time and Space";
+			sourceTree = "<group>";
+		};
+		1B8BA97623D6C05C0038150A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B8BA97723D6C05C0038150A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B8BA98423D6C05C0038150A /* Time and SpaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B8BA98523D6C05C0038150A /* Time_and_SpaceTests.swift */,
+				1B8BA98723D6C05C0038150A /* Info.plist */,
+			);
+			path = "Time and SpaceTests";
+			sourceTree = "<group>";
+		};
+		1B8BA98F23D6C05C0038150A /* Time and SpaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B8BA99023D6C05C0038150A /* Time_and_SpaceUITests.swift */,
+				1B8BA99223D6C05C0038150A /* Info.plist */,
+			);
+			path = "Time and SpaceUITests";
+			sourceTree = "<group>";
+		};
+		472ADEE77694FD71D0A70DCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D3714F8F004EA51AC9ED9 /* Pods-Time and Space.debug.xcconfig */,
+				3C478088C24659DE1424E293 /* Pods-Time and Space.release.xcconfig */,
+				74E1025A3EF2B993CF535524 /* Pods-Time and Space-Time and SpaceUITests.debug.xcconfig */,
+				DE2C428EAD576C95AE3A38FB /* Pods-Time and Space-Time and SpaceUITests.release.xcconfig */,
+				86B42264D186A7FEBDB471CB /* Pods-Time and SpaceTests.debug.xcconfig */,
+				C3A138DD21DEEC00950BEE5B /* Pods-Time and SpaceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFB2FCF83132F5932A296472 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31348871B4D8DDB123716021 /* Pods_Time_and_Space.framework */,
+				98505F230980ABAB42C94838 /* Pods_Time_and_Space_Time_and_SpaceUITests.framework */,
+				2A9866322EDD4AF1185B97C4 /* Pods_Time_and_SpaceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B8BA96723D6C0590038150A /* Time and Space */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8BA99523D6C05C0038150A /* Build configuration list for PBXNativeTarget "Time and Space" */;
+			buildPhases = (
+				127D78922C8DA7344C9C3DC5 /* [CP] Check Pods Manifest.lock */,
+				1B8BA96423D6C0590038150A /* Sources */,
+				1B8BA96523D6C0590038150A /* Frameworks */,
+				1B8BA96623D6C0590038150A /* Resources */,
+				A632E7803AF3EBED683A29EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time and Space";
+			productName = "Time and Space";
+			productReference = 1B8BA96823D6C0590038150A /* Time and Space.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B8BA98023D6C05C0038150A /* Time and SpaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8BA99823D6C05C0038150A /* Build configuration list for PBXNativeTarget "Time and SpaceTests" */;
+			buildPhases = (
+				8C0ED3876828BC76D3AAF000 /* [CP] Check Pods Manifest.lock */,
+				1B8BA97D23D6C05C0038150A /* Sources */,
+				1B8BA97E23D6C05C0038150A /* Frameworks */,
+				1B8BA97F23D6C05C0038150A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B8BA98323D6C05C0038150A /* PBXTargetDependency */,
+			);
+			name = "Time and SpaceTests";
+			productName = "Time and SpaceTests";
+			productReference = 1B8BA98123D6C05C0038150A /* Time and SpaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B8BA98B23D6C05C0038150A /* Time and SpaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8BA99B23D6C05C0038150A /* Build configuration list for PBXNativeTarget "Time and SpaceUITests" */;
+			buildPhases = (
+				1D584BDD66183A3BEA3C8F91 /* [CP] Check Pods Manifest.lock */,
+				1B8BA98823D6C05C0038150A /* Sources */,
+				1B8BA98923D6C05C0038150A /* Frameworks */,
+				1B8BA98A23D6C05C0038150A /* Resources */,
+				12300188B932BCEBEA21636F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B8BA98E23D6C05C0038150A /* PBXTargetDependency */,
+			);
+			name = "Time and SpaceUITests";
+			productName = "Time and SpaceUITests";
+			productReference = 1B8BA98C23D6C05C0038150A /* Time and SpaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B8BA96023D6C0590038150A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = MadeUp;
+				TargetAttributes = {
+					1B8BA96723D6C0590038150A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1B8BA98023D6C05C0038150A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1B8BA96723D6C0590038150A;
+					};
+					1B8BA98B23D6C05C0038150A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1B8BA96723D6C0590038150A;
+					};
+				};
+			};
+			buildConfigurationList = 1B8BA96323D6C0590038150A /* Build configuration list for PBXProject "Time and Space" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B8BA95F23D6C0590038150A;
+			productRefGroup = 1B8BA96923D6C0590038150A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B8BA96723D6C0590038150A /* Time and Space */,
+				1B8BA98023D6C05C0038150A /* Time and SpaceTests */,
+				1B8BA98B23D6C05C0038150A /* Time and SpaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B8BA96623D6C0590038150A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8BA97B23D6C05C0038150A /* LaunchScreen.storyboard in Resources */,
+				1B8BA97823D6C05C0038150A /* Preview Assets.xcassets in Resources */,
+				1B8BA97523D6C05C0038150A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8BA97F23D6C05C0038150A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8BA98A23D6C05C0038150A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12300188B932BCEBEA21636F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time and Space-Time and SpaceUITests/Pods-Time and Space-Time and SpaceUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time and Space-Time and SpaceUITests/Pods-Time and Space-Time and SpaceUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Time and Space-Time and SpaceUITests/Pods-Time and Space-Time and SpaceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		127D78922C8DA7344C9C3DC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time and Space-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D584BDD66183A3BEA3C8F91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time and Space-Time and SpaceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C0ED3876828BC76D3AAF000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time and SpaceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A632E7803AF3EBED683A29EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time and Space/Pods-Time and Space-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time and Space/Pods-Time and Space-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Time and Space/Pods-Time and Space-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B8BA96423D6C0590038150A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8BA97123D6C0590038150A /* Time_and_Space.xcdatamodeld in Sources */,
+				1B8BA96C23D6C0590038150A /* AppDelegate.swift in Sources */,
+				1B8BA97323D6C0590038150A /* ContentView.swift in Sources */,
+				1B6BE94C2406111B00D6ECFB /* Functions.swift in Sources */,
+				1B8BA96E23D6C0590038150A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8BA97D23D6C05C0038150A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8BA98623D6C05C0038150A /* Time_and_SpaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8BA98823D6C05C0038150A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8BA99123D6C05C0038150A /* Time_and_SpaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B8BA98323D6C05C0038150A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B8BA96723D6C0590038150A /* Time and Space */;
+			targetProxy = 1B8BA98223D6C05C0038150A /* PBXContainerItemProxy */;
+		};
+		1B8BA98E23D6C05C0038150A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B8BA96723D6C0590038150A /* Time and Space */;
+			targetProxy = 1B8BA98D23D6C05C0038150A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B8BA97923D6C05C0038150A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B8BA97A23D6C05C0038150A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B8BA99323D6C05C0038150A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B8BA99423D6C05C0038150A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B8BA99623D6C05C0038150A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6D3714F8F004EA51AC9ED9 /* Pods-Time and Space.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Time and Space/Preview Content\"";
+				DEVELOPMENT_TEAM = 9AWTG64K4K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Time and Space/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MadeUp.Time-and-Space";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B8BA99723D6C05C0038150A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C478088C24659DE1424E293 /* Pods-Time and Space.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Time and Space/Preview Content\"";
+				DEVELOPMENT_TEAM = 9AWTG64K4K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Time and Space/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MadeUp.Time-and-Space";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B8BA99923D6C05C0038150A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B42264D186A7FEBDB471CB /* Pods-Time and SpaceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Time and SpaceTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MadeUp.Time-and-SpaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time and Space.app/Time and Space";
+			};
+			name = Debug;
+		};
+		1B8BA99A23D6C05C0038150A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A138DD21DEEC00950BEE5B /* Pods-Time and SpaceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Time and SpaceTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MadeUp.Time-and-SpaceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time and Space.app/Time and Space";
+			};
+			name = Release;
+		};
+		1B8BA99C23D6C05C0038150A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E1025A3EF2B993CF535524 /* Pods-Time and Space-Time and SpaceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Time and SpaceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MadeUp.Time-and-SpaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Time and Space";
+			};
+			name = Debug;
+		};
+		1B8BA99D23D6C05C0038150A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE2C428EAD576C95AE3A38FB /* Pods-Time and Space-Time and SpaceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Time and SpaceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MadeUp.Time-and-SpaceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Time and Space";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B8BA96323D6C0590038150A /* Build configuration list for PBXProject "Time and Space" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8BA99323D6C05C0038150A /* Debug */,
+				1B8BA99423D6C05C0038150A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8BA99523D6C05C0038150A /* Build configuration list for PBXNativeTarget "Time and Space" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8BA99623D6C05C0038150A /* Debug */,
+				1B8BA99723D6C05C0038150A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8BA99823D6C05C0038150A /* Build configuration list for PBXNativeTarget "Time and SpaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8BA99923D6C05C0038150A /* Debug */,
+				1B8BA99A23D6C05C0038150A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8BA99B23D6C05C0038150A /* Build configuration list for PBXNativeTarget "Time and SpaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8BA99C23D6C05C0038150A /* Debug */,
+				1B8BA99D23D6C05C0038150A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B8BA96F23D6C0590038150A /* Time_and_Space.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B8BA97023D6C0590038150A /* Time_and_Space.xcdatamodel */,
+			);
+			currentVersion = 1B8BA97023D6C0590038150A /* Time_and_Space.xcdatamodel */;
+			path = Time_and_Space.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B8BA96023D6C0590038150A /* Project object */;
+}
